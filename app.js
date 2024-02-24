@@ -8,7 +8,7 @@ const server = app.listen(8080, () => console.log("listening"));
 app.use(express.static("public"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-console.log("hello");
+console.log("hellooo");
 const { Todo } = require("./models/Todo.js");
 
 //post a to do
